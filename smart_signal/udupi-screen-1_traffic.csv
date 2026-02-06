@@ -1,0 +1,6 @@
+cnm,location,date,road_number,IPaddress,priority,priority_on_time,priority_off_time,default_green_time,green_validity_on_time,green_validity_off_time,current_green_time
+ecube,udupi-screen-1,2022-10-17,R1,198.172.168.1,P1,9:00am,9:00am,25,10:45,10:47,30
+ecube,udupi-screen-1,2022-10-17,R2,198.172.168.2,P2,9:00am,9:00am,25,10:44,10:56,30
+ecube,udupi-screen-1,2022-10-18,R1,198.172.168.1,P1,9:00am,9:00am,25,11:28,11:30,30
+ecube,udupi-screen-1,2022-10-18,R1,198.172.168.1,P1,9:00am,9:00am,25,16:14,21:10,30
+ecube,udupi-screen-1,2022-10-19,R1,198.172.168.1,P1,10:11 am,9:00am,25,13:30,12:00,25

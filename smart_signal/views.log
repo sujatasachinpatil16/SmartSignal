@@ -1,0 +1,434 @@
+2022-10-15 11:55:12,203:smart_signal.views:408:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:02:21,114:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:02:34,311:smart_signal.views:59:Error after is_non_zero_file:
+NoneType: None
+2022-10-15 12:33:33,850:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:35:57,842:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:40:44,027:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:44:52,212:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:46:00,409:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 12:46:47,461:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-15 13:42:18,889:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-17 04:36:53,050:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-17 04:37:39,963:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-17 05:03:58,113:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-17 05:09:43,134:smart_signal.views:59:Error after is_non_zero_file:
+NoneType: None
+2022-10-17 05:09:45,611:smart_signal.views:407:command for getting all clients and signal:
+NoneType: None
+2022-10-17 05:11:55,424:smart_signal.views:411:command for getting all clients and signal:
+NoneType: None
+2022-10-17 05:13:01,054:smart_signal.views:411:command for getting all clients and signal:
+NoneType: None
+2022-10-17 05:13:19,925:smart_signal.views:59:Error after is_non_zero_file:
+NoneType: None
+2022-10-17 05:13:22,435:smart_signal.views:411:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:00:24,968:smart_signal.views:416:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:01:12,622:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:01:38,723:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:03:31,366:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:04:19,281:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:48:04,059:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:50:44,251:smart_signal.views:417:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:53:17,244:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:54:53,297:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 05:56:20,751:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 06:09:17,516:smart_signal.views:375:in function get_clientlist:
+NoneType: None
+2022-10-18 06:09:22,469:smart_signal.views:375:in function get_clientlist:
+NoneType: None
+2022-10-18 06:09:26,033:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 06:10:53,549:smart_signal.views:375:in function get_clientlist:
+NoneType: None
+2022-10-18 06:12:00,008:smart_signal.views:375:in function get_clientlist:
+NoneType: None
+2022-10-18 06:12:04,168:smart_signal.views:294:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 06:12:04,169:smart_signal.views:317:Final values of city_names:
+NoneType: None
+2022-10-18 10:33:24,681:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 10:36:35,343:smart_signal.views:420:command for getting all clients and signal:
+NoneType: None
+2022-10-18 10:40:05,591:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-18 16:41:14,993:smart_signal.views:378:in function get_clientlist:
+NoneType: None
+2022-10-18 16:41:30,780:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-18 16:42:52,939:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:42:52,940:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:43:03,503:smart_signal.views:378:in function get_clientlist:
+NoneType: None
+2022-10-18 16:43:06,232:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-18 16:43:39,861:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-18 16:45:10,570:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:45:10,570:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:45:34,986:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:45:34,986:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:45:46,023:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:45:46,024:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:45:48,945:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:45:48,945:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:46:00,051:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:46:00,052:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:46:10,961:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:46:10,961:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:46:48,512:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:46:48,513:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:46:51,981:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:46:51,982:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:47:43,673:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:47:43,674:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-18 16:47:45,241:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-18 16:47:45,241:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-19 07:19:24,842:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:20:35,956:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:21:22,499:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:21:43,113:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:21:54,520:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:23:21,564:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:25:10,201:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:25:35,460:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-19 07:27:37,410:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-31 05:17:16,715:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 05:17:16,716:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 05:20:26,275:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-31 07:21:30,105:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 07:21:30,106:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 12:03:02,193:smart_signal.views:423:command for getting all clients and signal:
+NoneType: None
+2022-10-31 13:21:26,186:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:21:26,186:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 13:21:50,129:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:21:50,130:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 13:27:14,542:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:27:14,542:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 13:27:30,796:smart_signal.views:297:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:27:30,797:smart_signal.views:320:Final values of city_names:
+NoneType: None
+2022-10-31 13:39:46,070:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:39:46,070:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 13:40:23,942:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:40:23,942:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 13:42:18,840:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:42:18,840:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 13:43:44,508:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 13:43:44,509:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:33:05,222:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 14:33:05,223:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:34:13,224:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 14:34:13,224:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:34:14,497:smart_signal.views:709:Error after is_non_zero_file:
+NoneType: None
+2022-10-31 14:34:38,814:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 14:34:38,815:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:35:31,796:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 14:35:31,796:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:38:12,515:smart_signal.views:293:city1.csv reader after converting to list:
+NoneType: None
+2022-10-31 14:38:12,516:smart_signal.views:316:Final values of city_names:
+NoneType: None
+2022-10-31 14:45:50,829:smart_signal.views:419:command for getting all clients and signal:
+NoneType: None
+2022-11-07 11:22:37,256:smart_signal.views:419:command for getting all clients and signal:
+NoneType: None
+2022-11-16 05:44:06,708:smart_signal.views:419:command for getting all clients and signal:
+NoneType: None
+2022-11-16 11:27:15,839:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:39:10,048:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:41:30,636:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:48:49,837:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:58:33,311:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:59:05,392:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 12:59:13,628:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:00:51,469:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:06,312:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:22,814:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:33,507:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:37,566:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:43,528:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:01:51,171:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:02:34,514:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:02:38,696:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:02:47,569:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:02:53,179:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:03:20,190:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-16 13:03:25,357:smart_signal.views:344:in function get_clientlist:
+NoneType: None
+2022-11-22 13:50:13,001:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-11-22 13:50:31,810:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-11-23 10:28:03,657:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-07 09:59:12,891:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-07 09:59:19,518:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-21 06:43:08,348:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-21 06:43:22,074:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-22 04:06:06,084:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2022-12-22 04:06:10,066:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-03 04:11:09,199:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-03 04:11:13,167:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-03 08:31:00,499:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-03 08:31:13,166:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-03 08:41:27,176:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-23 07:37:16,297:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-23 07:37:33,093:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-23 07:37:35,805:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-23 07:37:48,818:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-01-23 07:41:04,727:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-03-03 02:18:03,893:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:23:49,406:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:24:06,941:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:24:29,352:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:24:48,598:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:24:58,277:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:30:01,102:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:30:06,742:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:30:09,779:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:35:35,493:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-03 10:36:14,854:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-04 08:47:08,496:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-04 08:47:27,325:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-04 08:47:39,920:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-07-04 08:48:33,355:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 03:58:13,120:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 03:58:27,820:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 03:58:32,226:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 03:58:41,027:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 04:17:49,543:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 04:18:10,453:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2023-09-02 04:18:23,957:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-03-30 13:57:04,607:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-03-30 13:57:19,139:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:35,392:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:45,195:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:50,837:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:52,595:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:54,022:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-13 08:17:55,661:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-04-15 05:26:43,775:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 05:03:19,019:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 05:03:28,495:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 05:03:29,413:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 05:03:31,053:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 11:46:05,434:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-06-23 11:46:05,849:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-01 05:44:07,491:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-01 05:44:11,773:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-01 05:47:34,004:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:16,213:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:18,829:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:21,495:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:21,607:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:23,390:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:26,480:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:28,030:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:33,035:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 12:52:34,987:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 13:46:20,684:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-09 20:35:31,298:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:32:17,967:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:32:49,905:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:32:51,522:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:32:55,359:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:33:01,067:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-20 12:33:06,232:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 09:44:48,732:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 09:44:50,875:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 09:44:52,810:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 09:45:09,448:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 16:35:23,431:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-07-24 18:40:08,531:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-10-11 16:34:07,242:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-10-11 16:37:53,322:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-10-11 16:38:04,147:smart_signal.views:295:in function get_clientlist:
+NoneType: None
+2024-10-11 16:38:21,932:smart_signal.views:295:in function get_clientlist:
+NoneType: None

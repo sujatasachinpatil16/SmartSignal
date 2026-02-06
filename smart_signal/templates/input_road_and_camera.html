@@ -1,0 +1,93 @@
+{% load static %}
+
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+      <title>Smart Signal web app</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" type="text/css" href="{% static 'styles/main.css'%}">
+      <script type="text/javascript" src="{% static 'components/SmartSignalHeader/smartSignalHeader.js'%}"></script>
+      <script type="text/javascript" src="{% static 'components/SmartSignalSidebar/smartSignalSidebarAdmin.js'%}"></script>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/clocklet/css/clocklet.min.css"/>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+  <body>
+    <header>
+ <smart-signal-header name="{{user.first_name}}" isAuthenticated="{{user.is_authenticated}}"></smart-signal-header>
+    <smart-signal-sidebar-admin></smart-signal-sidebar-admin>
+<div class="ss-main-container">
+	<img class="ss-default-bg" src="/static/images/Ecube_logo.png"/>
+<form action="/save_traffic_details" method="POST">
+      {% csrf_token %}
+
+
+ <div>       
+            {{ user.first_name }}
+            <label for="location">Choose signal:</label>
+            <select id="location" name="location">
+                {% for client in full_list %}
+                    <option value="{{client}}">{{client}}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <br> <br>
+        <label for="todaydate">Date:</label>
+        <input type="date" id="date" name="date">
+        <script>
+            $('#date').val(new Date().toJSON().slice(0,10));
+        </script>
+        <br><br>
+        <label for="road_no">Choose Road number:</label>
+        	    <select id="road_no" name="road_no">
+                	{% for rno in road_list %}
+	                    <option value="{{rno}}">{{rno}}</option>
+        	        {% endfor %}
+	            </select>
+       <br /><br />
+        <label for="ip_address">Choose IP address:</label>
+        	    <select id="ip_address" name="ip_address">
+                	{% for temp in ipadd_list %}
+	                    <option value="{{temp}}">{{temp}}</option>
+        	        {% endfor %}
+	            </select>
+      <br /><br />
+        <label for="road_priority">Choose road priority:</label>
+        	    <select id="road_priority" name="road_priority">
+                	{% for p in priority_list %}
+	                    <option value="{{p}}">{{p}}</option>
+        	        {% endfor %}
+	            </select>
+      <br /><br />
+      
+      <label><b>Priority Timing : </b></label><br>
+      On : <input data-clocklet="format: h:mm a" name="pri_on_time" value="9:00am">
+      Off : <input data-clocklet="format: h:mm a" name="pri_off_time" value="9:00am">
+      <br/><br>
+      
+      <label><b>Default Green Time : </b></label>
+      <input type="number" id="default_green_time" name="default_green_time" value="25" size="4"><br>
+      
+      <label><b>Validity Period : </b></label><br>
+      <b>On : </b>
+      <input id="green_validity_on_time" type="time" name="green_validity_on_time" min="7:00" max="22:00" required />
+      <span class="validity"></span>
+      <b>Off :</b>
+      <input id="green_validity_off_time" type="time" name="green_validity_off_time" min="7:00" max="22:00" required />
+      <span class="validity"></span>
+      <br><br>
+      
+     <label><b>Current Green Time : </b></label>
+      <input type="number" id="current_green_time" name="current_green_time" value="30" size="4">
+     <br><br>
+     
+     <input type="submit" style="margin:0px auto; display:block" name="traffic_details" value="SAVE">
+     <input type="hidden" id="company_nm" name="cnm" value={{client}}>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/clocklet"></script></div>
+</body>
+</html>

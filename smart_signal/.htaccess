@@ -1,0 +1,4 @@
+ErrorDocument 404 /templates/page_not_found.html
+ErrorDocument 500 /templates/server_error.html
+ErrorDocument 403 /templates/permission_denied.html
+ErrorDocument 400 /templates/bad_request.html

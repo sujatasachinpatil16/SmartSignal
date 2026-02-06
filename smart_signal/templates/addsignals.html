@@ -1,0 +1,98 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Signal details</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/main.css'%}">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="{% static 'components/SmartSignalHeader/SmartSignalHeader.js'%}"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script src="../jquery.input-ip-address-control-1.0.min.js"></script>
+	<script>
+		$(function(){
+		    $('#ipv4').ipAddress();
+		    $('#ipv6').ipAddress({v:6});
+		});
+
+		//mask input type text (ipv4) : ___.___.___.___
+		//mask input type text (ipv6) : ____:____:____:____:____:____:____:____
+	</script>
+</head>
+<body>
+    <smart-signal-header name="{{user.first_name}}" isAuthenticated="{{user.is_authenticated}}"></smart-signal-header>
+        {% csrf_token %}
+        {% block content %}
+
+        {% if user.is_superuser %}
+            <script type="text/javascript" src="{% static 'components/SmartSignalSidebar/smartSignalSidebarAdmin.js'%}"></script>
+            <smart-signal-sidebar-admin></smart-signal-sidebar-admin>
+        {% else %}
+            <script type="text/javascript" src="{% static 'components/SmartSignalSidebar/smartSignalSidebarUser.js'%}"></script>
+            <smart-signal-sidebar-user name="{{ user }}"></smart-signal-sidebar-user>
+        {% endif %}
+        <div class="ss-main-container">
+            <img class="ss-default-bg" src="/static/images/Ecube_logo.png" />
+            <form action="/addsignals" method="POST">
+                 <table border="0" width="680px" cellpadding="0" cellspacing="0" align="left">
+                     <td style="border:none;">
+                      <tr>
+                        {% if user.is_superuser %}
+                        <th style="border:none;"> Enter company name:</th>
+                        <label for="company_name"></label>
+                        <select id="company_name" name="company_name">
+                        {% for cnm in cli_list %}
+                                <option value="{{cnm.1}}">{{cnm.1}}</option>
+                        {% endfor %}
+                        </select>
+                      </tr>
+                     <tr>
+                         <th style="border:none;"> Enter Signal name:</th>
+                         <td style="border:none;">
+                            <input type="text" id="signal_name" name="signal_name"><br><br>
+                          </td>
+                    </tr>
+                    {% endif %}
+                    <tr>
+                        <td style="border:none;"> &nbsp;&nbsp; </td>
+                    </tr>
+                      <tr>
+                         <th style="border:none;"> Enter number of crossings at signal:</th>
+                         <td style="border:none;">
+                            <input type="number" id="noofroads" name="noofroads" min="0"><br><br>
+                          </td>
+                    </tr>
+                    <tr>
+                        <td style="border:none;"> &nbsp;&nbsp; </td>
+                    </tr>
+             <!--         <tr>
+                         <th style="border:none;"> Enter IP addresses assigned:</th>
+                         <td style="border:none;">
+                            <input type="text" pattern="^([0-9a-fA-F]{4}:){7}[0-9a-fA-F]{4}$" name="ipaddress" id="ipaddress" multiple>
+                             <input type="text" name="ipaddress" id="ipaddress" multiple>
+                             <input type="text" name="ip" id="ipv6" multiple>
+                          </td>
+                    </tr>  -->
+                     <tr>
+                        <td style="border:none;"> &nbsp;&nbsp; </td>
+                    </tr>
+                     <tr style="border:none;">
+                      <td colspan="2" style="border:none;" align="center">
+                            <input type="submit" value="Save signal details" name="submit" id="signal_details">
+                      </td>
+                    </tr>
+
+                 </table>
+                 <div class="footer">
+                        <p>Developed by Ecube integrated solutions (OPC) private limited </p>
+                </div>
+            </form>
+        </div>
+{% endblock %}
+</body>
+</html>

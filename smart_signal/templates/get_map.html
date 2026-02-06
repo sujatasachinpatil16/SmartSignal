@@ -1,0 +1,142 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Signal Management</title>
+
+    <!-- Third Party Dependencies -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- Internal Dependencies -->
+    <link rel="stylesheet" type="text/css" href="{% static 'styles/main.css'%}">
+    <script type="text/javascript" src="{% static 'components/SmartSignalHeader/SmartSignalHeader.js'%}"></script>
+    <script type="text/javascript" src="{% static 'components/SmartSignalSidebar/smartSignalSidebarUser.js'%}"></script>
+    <style>
+	.button1 {
+		top: 70px;
+		left: 260px;
+	}
+
+	.button2 {
+		top: 507px;
+    		left: 735px;
+	}
+    </style>
+
+</head>
+
+
+<body style="background: aliceblue;">
+    	<smart-signal-header name="{{user.first_name}}" isAuthenticated="{{user.is_authenticated}}"></smart-signal-header>
+	<smart-signal-sidebar-user name="{{user}}"></smart-signal-sidebar-user>
+	{% csrf_token %}
+	<div class="ss-main-container" style="padding-top:100px">
+	    	<img class="ss-default-bg" src="/static/images/Ecube_logo.png" />
+        	<div class="map_container">
+<!--	        	<img id="MapImg" src="/static/images/dpifs_map.png" alt="map" style="width:1000px;height:600px;margin-left:80px;"/>  -->
+		        <img id="MapImg" width="1000px" height="650px" />
+			<button id="thane-cadburyjunction" class="btn button1" name="thane-cadburyjunction" value="thane-cadburyjunction"></button>
+			<button id="pune-ksbchowk" class="btn button2" name="pune-ksbchowk" value="pune-ksbchowk"></button>
+        	</div>
+        	<form action="get_map" method="POST">
+			{% csrf_token %}
+			<input type="hidden" id="signal_name" name="signal_name">
+		<!--	<div class="map-container">
+			      <img id="MapImg" width="1000px" height="650px" />  
+			</div>    -->
+			<div id="myModal" class="modal">		
+                		<!-- Modal content -->
+                     		<div class="modal-content">
+                    		<span class="close">&times;</span>
+                            	<p>Please select an option:</p>
+                      		<input type="radio" id="listout" name="choose" value="listout">
+                      		<label for="listout">List out videos</label><br>
+                      		<input type="radio" id="cctv_feed" name="choose" value="cctv_feed">
+                      		<label for="cctv_feed">CCTV feed</label><br>
+                      		<input type="submit" value="Submit">
+               	 	</div>
+
+        	</form>
+	</div>
+        <div class="footer">
+                 <p>Developed by Ecube integrated solutions (OPC) private limited </p>
+        </div>
+
+<script>
+
+const CLIENT_AREA_MAP = {
+        /* Make sure user name matches with user ID login*/
+        'sdpm' : '/static/images/maps/sdpm_map.png',
+        'dpifs' : '/static/images/maps/dpifs_map.png',
+        'client3' : '/static/images/dpifs.jpeg'
+}
+
+this.mapUrl = $("#MapImg").attr('src', CLIENT_AREA_MAP[$("smart-signal-sidebar-user").attr('name')]);
+
+
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn1 = document.getElementById("thane-cadburyjunction");
+var btn2 = document.getElementById("pune-ksbchowk");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks the button, open the modal 
+btn1.onclick = function(event) {
+  modal.style.display = "block";
+  var signalName = document.getElementById('signal_name');
+  signalName.value = event.target.name;
+}
+
+btn2.onclick = function() {
+  modal.style.display = "block";
+  var signalName = document.getElementById('signal_name');
+  signalName.value = event.target.name;
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+/*
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("MapImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+  modal.style.display = "none";
+}
+*/
+</script>
+</body>
+</html>
